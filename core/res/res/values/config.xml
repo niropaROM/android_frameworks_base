@@ -1408,7 +1408,7 @@
          below the percentage value specified by this param, DownloadManager
          starts removing files to try to make percentage of available
          free space above this threshold value. -->
-    <integer name="config_downloadDataDirLowSpaceThreshold">10</integer>
+    <integer name="config_downloadDataDirLowSpaceThreshold">5</integer>
 
     <!-- The URL that should be sent in an x-wap-profile header with an HTTP request,
          as defined in the Open Mobile Alliance User Agent Profile specification
@@ -1563,9 +1563,9 @@
     <bool name="config_dreamsSupported">true</bool>
 
     <!-- If supported, are dreams enabled? (by default) -->
-    <bool name="config_dreamsEnabledByDefault">true</bool>
+    <bool name="config_dreamsEnabledByDefault">false</bool>
     <!-- If supported and enabled, are dreams activated when docked? (by default) -->
-    <bool name="config_dreamsActivatedOnDockByDefault">true</bool>
+    <bool name="config_dreamsActivatedOnDockByDefault">false</bool>
     <!-- If supported and enabled, are dreams activated when asleep and charging? (by default) -->
     <bool name="config_dreamsActivatedOnSleepByDefault">false</bool>
     <!-- ComponentName of the default dream (Settings.Secure.DEFAULT_SCREENSAVER_COMPONENT) -->
@@ -1803,7 +1803,7 @@
     <bool name="config_useDevInputEventForAudioJack">false</bool>
 
     <!-- Whether safe headphone volume is enabled or not (country specific). -->
-    <bool name="config_safe_media_volume_enabled">true</bool>
+    <bool name="config_safe_media_volume_enabled">false</bool>
 
     <!-- Set to true if the wifi display supports compositing content stored
          in gralloc protected buffers.  For this to be true, there must exist
@@ -2356,7 +2356,7 @@
     <bool name="config_eap_sim_based_auth_supported">true</bool>
 
     <!-- How long history of previous vibrations should be kept for the dumpsys. -->
-    <integer name="config_previousVibrationsDumpLimit">20</integer>
+    <integer name="config_previousVibrationsDumpLimit">10</integer>
 
     <!-- Number of retries Cell Data should attempt for a given error code before
          restarting the modem.
