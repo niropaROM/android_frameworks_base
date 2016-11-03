@@ -2356,7 +2356,7 @@
     <bool name="config_eap_sim_based_auth_supported">true</bool>
 
     <!-- How long history of previous vibrations should be kept for the dumpsys. -->
-    <integer name="config_previousVibrationsDumpLimit">10</integer>
+    <integer name="config_previousVibrationsDumpLimit">5</integer>
 
     <!-- Number of retries Cell Data should attempt for a given error code before
          restarting the modem.
